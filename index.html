@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR Quiz</title>
+    <link rel="stylesheet" href="mypage.css">
+</head>
+<body>
+    <header>
+        <h1>SR Quiz</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#quiz">Play Quiz</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="feedback.html">feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="quiz">
+            <h2>Play Quiz</h2>
+            <p>Click the button below to start the quiz!</p>
+            <a href="quiz.html"><button onclick="startQuiz()">DS Quiz</button></a>
+            <a href="python.html"><button onclick="python()">Python Quiz</button></a>
+            <a href="hci.html"><button onclick="HCI()">HCI Quiz</button></a>
+        </section>
+    </main>
+<center><img src="logoquiz.jpg" alt="" height="400px" width="500px"></center>
+    <footer>
+        <p>&copy; 2024 SR Quiz. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function startQuiz() {
+            alert('Starting the quiz! Good luck!');
+            // Here you can implement your quiz logic
+        }
+    </script>
+</body>
+</html>

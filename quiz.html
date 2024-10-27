@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <header>
+        <h1>SR Quiz</h1>
+        <h2>Data Structures Quiz</h2>
+    </header>
+
+    <main>
+        <form id="quizForm">
+            <section>
+                <p><strong>1.</strong> Which data structure is a linear collection of data elements, where the linear order is given by means of pointers?</p>
+                <label><input type="radio" name="q1" value="A"> A) Array</label><br>
+                <label><input type="radio" name="q1" value="B"> B) Stack</label><br>
+                <label><input type="radio" name="q1" value="C"> C) Linked List</label><br>
+                <label><input type="radio" name="q1" value="D"> D) Binary Tree</label>
+            </section>
+
+            <section>
+                <p><strong>2.</strong> What is the time complexity of searching for an element in a balanced binary search tree (BST)?</p>
+                <label><input type="radio" name="q2" value="A"> A) O(1)</label><br>
+                <label><input type="radio" name="q2" value="B"> B) O(n)</label><br>
+                <label><input type="radio" name="q2" value="C"> C) O(log n)</label><br>
+                <label><input type="radio" name="q2" value="D"> D) O(n log n)</label>
+            </section>
+
+            <section>
+                <p><strong>3.</strong> Which of the following data structures uses the LIFO (Last In First Out) principle?</p>
+                <label><input type="radio" name="q3" value="A"> A) Queue</label><br>
+                <label><input type="radio" name="q3" value="B"> B) Stack</label><br>
+                <label><input type="radio" name="q3" value="C"> C) Binary Search Tree</label><br>
+                <label><input type="radio" name="q3" value="D"> D) Hash Table</label>
+            </section>
+
+            <section>
+                <p><strong>4.</strong> In which data structure is each element connected to two other elements, forming a sequence?</p>
+                <label><input type="radio" name="q4" value="A"> A) Queue</label><br>
+                <label><input type="radio" name="q4" value="B"> B) Singly Linked List</label><br>
+                <label><input type="radio" name="q4" value="C"> C) Doubly Linked List</label><br>
+                <label><input type="radio" name="q4" value="D"> D) Tree</label>
+            </section>
+
+            <section>
+                <p><strong>5.</strong> Which of the following is the best definition of a graph in data structures?</p>
+                <label><input type="radio" name="q5" value="A"> A) A collection of vertices and edges</label><br>
+                <label><input type="radio" name="q5" value="B"> B) A hierarchical structure</label><br>
+                <label><input type="radio" name="q5" value="C"> C) A collection of sorted elements</label><br>
+                <label><input type="radio" name="q5" value="D"> D) A linear list of elements</label>
+            </section>
+            
+
+            <button type="submit">Submit Answers</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SR Quiz. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('quizForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for submitting your answers!');
+            // Here you can add logic to check answers
+        });
+    </script>
+</body>
+</html>
